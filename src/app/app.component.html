@@ -1,0 +1,9 @@
+<div class="col-md-6">
+  <br>
+  <button pButton
+    (click)="op1.toggle($event)" label="{{getLabel()}}" class="color-class"></button>
+    <p-overlayPanel #op1>
+      <p-tree [value]="files1" selectionMode="checkbox" filter=true [(selection)]="selectedFiles2"
+        (onNodeSelect)="nodeSelect($event)"></p-tree>
+    </p-overlayPanel>
+</div>

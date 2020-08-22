@@ -1,0 +1,11 @@
+.color-class{
+    background-color: lightgray !important;
+    color: black;
+    border-color: #bbbbbb;
+    width: 283px;
+}
+
+.color-class:hover {
+    background-color: grey !important;
+    border-color: grey;
+}
